@@ -49,11 +49,18 @@ image_filtering.m의 이미지 불러오기 경로인 image_path 값을 sample �
 
 ## 코드 진행 과정
 MATLAB 환경에서 MATLAB 코드 image_filtering.m 실행
-sample 폴더에 저장된 파일명(image_path)의 이미지 가져오고 
+
+sample 폴더에 저장된 파일명(image_path)의 이미지 가져오고
+
 Python 코드 detect_faces.py 호출
+
 감정 인식 후 결과값 json 파일로 저장
+
 가장 큰 Confidence 값을 maxEmotion으로 설정.
+
 maxEmotion에 대응하는 준비된 filter 함수 적용.
+
 원본 이미지, filter 적용 이미지, maxEmotion 항목과 Confidence점수 figure에 출력.
+
 filter 적용 이미지와 figure 화면 저장.
 
