@@ -30,16 +30,14 @@ https://kr.mathworks.com/support/requirements/python-compatibility.html?s_tid=sr
 
 아래 코드의 python.exe 위치를 자신의 환경에 맞게 설정하여 MATLAB에서 실행합니다. 명령 창에 한줄씩 입력하거나, .m 파일로 작성하여 실행해도 됩니다.
 pyenv를 활용하여 MATLAB에 Python의 경로를 설정합니다.
--------------------------------------------------------------------------
+
 % MATLAB에서 Python 환경 설정
 pe = pyenv('Version', 'C:\path\to\python\python.exe');
 
 % 설정 확인
 disp(pe)
--------------------------------------------------------------------------
 
 현재 작성된 코드는 boto3 라이브러리를 필요로 합니다. python.exe 위치를 맞게 수정하여 *명령 프롬포트에서 아래 코드를 실행합니다.
--------------------------------------------------------------------------
 C:\path\to\your\python.exe -m pip install boto3
 
 
