@@ -30,6 +30,8 @@ MATLAB 환경에서 작성된 image_filtering 코드는 json 파일을 읽어 �
 
 AWS 계정에서 rekognition 사용 권한이 부여된 사용자의 ACCESS KEY와 SECRET ACCESS KEY가 준비되어 있어야 합니다.
 
+aws rekognition https://aws.amazon.com/ko/rekognition/
+
 해당 프로젝트는 MATLAB 애드온 Computer Vision Toolbox, Image Processing Toolbox를 필요로 합니다. 미설치 시, 애드온 설치 이후 진행하십시오.
 
 MATLAB R2024a 버전 기준으로 MATLAB 환경 내에서 Python 3.9, 3.10, 3.11의 실행을 지원합니다.
